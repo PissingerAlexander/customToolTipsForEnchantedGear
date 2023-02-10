@@ -4,23 +4,24 @@ license="All Rights Reserved"
 showAsResourcePack=false
 
 [[mods]]
-modId="customToolTipsForEnchantedGear"
-version="0.1"
+modId="custom_tool_tips_for_enchanted_gear"
+version="1.19.2-0.0.0.0-beta0"
 displayName="Custom tool tips for enchanted gear"
 credits="Nicer 1.19.2 ohne freshe tool tips."
 authors="Alexander Pissinger"
-description='Customize the look of tool tips for mostly enchanted weapons, tools and armor'
+description="Customize the look of tool tips for mostly enchanted weapons, tools and armor"
+displayTest="IGNORE_ALL_VERSION"
 
-[[dependencies.customToolTipsForEnchantedGear]]
+[[dependencies.custom_tool_tips_for_enchanted_gear]]
 modId="forge"
 mandatory=true
 versionRange="[41,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.customToolTipsForEnchantedGear]]
+[[dependencies.custom_tool_tips_for_enchanted_gear]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.19.2,1.19.2)"
+versionRange="[1.19.2,)"
 ordering="NONE"
 side="BOTH"
