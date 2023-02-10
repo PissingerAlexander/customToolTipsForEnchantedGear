@@ -11,10 +11,5 @@ public class mouseHoverEventHandler {
     @SubscribeEvent
     public static void mouseOverItem(ItemTooltipEvent event) {
         System.out.println(event.getItemStack().getItem().getClass());
-        if (event.getItemStack().isEnchanted()) {
-            System.out.println(event.getItemStack().getEnchantmentTags());
-        } else {
-            System.out.println("Ist nicht verzaubert");
-        }
     }
 }
