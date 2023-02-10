@@ -1,6 +1,5 @@
 package customToolTipsForEnchantedGear.client.events;
 
-import net.minecraft.network.chat.Component;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,7 +10,7 @@ public class mouseHoverEventHandler {
 
     @SubscribeEvent
     public static void mouseOverItem(ItemTooltipEvent event) {
-        System.out.println(event.getItemStack().isEnchanted());
+        System.out.println(event.getItemStack().getItem().getClass());
         if (event.getItemStack().isEnchanted()) {
             System.out.println(event.getItemStack().getEnchantmentTags());
         } else {
