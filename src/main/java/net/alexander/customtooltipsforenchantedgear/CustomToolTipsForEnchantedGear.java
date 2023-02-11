@@ -1,4 +1,4 @@
-package net.alexander.customToolTipsForEnchantedGear;
+package net.alexander.customtooltipsforenchantedgear;
 
 
 import com.mojang.logging.LogUtils;
