@@ -1,7 +1,8 @@
-package net.alexander.customtooltipsforenchantedgear;
+package net.alexander.custom_tool_tips_for_enchanted_gear;
 
 
 import com.mojang.logging.LogUtils;
+import net.alexander.custom_tool_tips_for_enchanted_gear.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -19,6 +20,8 @@ public class CustomToolTipsForEnchantedGear {
 
     public CustomToolTipsForEnchantedGear() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

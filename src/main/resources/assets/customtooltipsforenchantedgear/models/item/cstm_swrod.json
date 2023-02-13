@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "custom_tool_tips_for_enchanted_gear:item/cstm_sword"
-  }
-}
